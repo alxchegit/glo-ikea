@@ -1,4 +1,3 @@
-'use strict';
 
 const generateFooter = () => {
 	const Footer = ` 
@@ -40,8 +39,7 @@ const generateFooter = () => {
     </div>
 
 </footer>
-
-	`;
+`;
 
 	document.body.insertAdjacentHTML('beforeend', Footer);
 }
